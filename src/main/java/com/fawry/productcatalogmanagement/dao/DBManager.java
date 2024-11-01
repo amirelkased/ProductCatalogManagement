@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DBManager {
     private static final String URL = "jdbc:mysql://localhost:3306/product_manager";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "11904231@$";
+    private static final String PASSWORD = "root";
 
     private DBManager() {
     }

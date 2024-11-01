@@ -27,8 +27,11 @@ public class AuthDao {
             preparedStatement.setString(1, request.getUsername());
             ResultSet result = preparedStatement.executeQuery();
 
-            if (result.next() && !result.getString("password").equals(request.getPassword())) {
-                return false;
+            if (result == null || !result.next()) {
+                throw new RuntimeException("User not found");
+            }
+            if (!result.getString("password").equals(request.getPassword())) {
+                throw new RuntimeException("Incorrect password");
             }
         } catch (Exception exception) {
             System.out.println("Authenticated process was failed!");
