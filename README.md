@@ -7,8 +7,7 @@ you can access your todo's by logging into the system or registering for the fir
 
 ## Demo
 
-https://github.com/user-attachments/assets/d07e728f-647a-4739-aff9-7881cb42b400
-
+https://github.com/user-attachments/assets/8385ef7b-c574-4efd-947f-7c916584bb43
 
 ---
 
